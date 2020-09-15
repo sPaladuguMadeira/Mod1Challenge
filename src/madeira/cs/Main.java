@@ -9,7 +9,7 @@ public class Week2 {
 
         System.out.println("Saanvi Paladugu");
 
-        System.out.println("Saanvi");
+        System.out.println("Saanvi"); // FIXME: use print() to print your
         System.out.println("Paladugu");
 
         //Problem II
@@ -17,7 +17,7 @@ public class Week2 {
         String First = "Hello ";
         String Second = "World ";
 
-        System.out.format(First);
+        System.out.format(First); //FIXME: The \n character also works
         System.out.format(Second);
 
         //Problem III
@@ -26,7 +26,7 @@ public class Week2 {
 
         System.out.format("Enter your age in years: ");
         String name = scan.nextLine();
-        System.out.format(name);
+        System.out.format(name); // FIXME: you need to use print & print the TYPE of the variable
 
         //Problem IV (My full name is Saanvi Paladugu)
 
@@ -34,6 +34,8 @@ public class Week2 {
         String lastName;
         String result;
 
+        // FIXME: the goal is to have the user GUESS your name
+        // FIXME: You can compare your name to their guess with == or .equals() and print the result
         firstName = " Saanvi";
         System.out.println(firstName+" is my first name.");
 
@@ -55,7 +57,7 @@ public class Week2 {
         // ==================
 
         //Problem VI
-
+        // +1 nice!
         System.out.print(" Enter your age: ");
         int myAge = scan.nextInt();
         int intResult = myAge + 5;
