@@ -23,7 +23,7 @@ public class Week3 {
 
         System.out.format("Enter your favorite music genre: ");
         String musicGenre = scan.nextLine();
-        System.out.format(musicGenre);
+        System.out.format(musicGenre); // use .print() here
         if (musicGenre.equals("R&B")) {
             System.out.println("Same!");
         } else
@@ -34,8 +34,8 @@ public class Week3 {
         int myNumber;
         myNumber = 17;
         System.out.print("Enter your guess: ");
-        String guess = scan.nextLine();
-        if(guess>myNumber) {
+        String guess = scan.nextLine(); // this needs to be .nextInt() to work well
+        if(guess>myNumber) { // wow, different roasts based on their choice. love it
             System.out.println("You are the potrait of a life of bad choices.");
         } else if(guess<myNumber) {
             System.out.println("I'm not saying you're stupid, I'm just saying you attract bad luck.");
@@ -51,8 +51,9 @@ public class Week3 {
 
         // Problem V
 
-        for (int i = 1; i <= 4; i = 4/2;) {
+        for (int i = 1; i <= 4; i = 4/2) { // this didn't run because of semicolon after 4/2...not necessary
             System.out.println("*");
     }
 
+}
 }
